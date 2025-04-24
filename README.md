@@ -36,6 +36,8 @@ T_Bot, Tuzla, İstanbul sakinlerinin deprem anında en yakın acil toplanma alan
   - Type of facility (usually parks or open areas)
 
 - **Multilingual Support**: Available in Turkish to serve the local community effectively
+- **Emergency Numbers**: Use `/acil` to get Istanbul emergency phone numbers.
+- **Earthquake Precautions**: Use `/onlem` to receive earthquake safety tips.
 
 ## Data Source
 
@@ -102,6 +104,8 @@ The bot uses official emergency gathering area data for Tuzla district, stored i
    - A neighborhood name: `/bul Cami`
    - Coordinates: `/bul 40.82196 29.31523`
    - Or simply share your location
+4. Use the `/acil` command to get emergency numbers
+5. Use the `/onlem` command to get earthquake precautions
 
 ## Limitations
 
@@ -156,3 +160,10 @@ Bot ile doğrudan iletişime geçmek için: [https://t.me/ToplanmaIstanbulBot](h
    ```bash
    python src/bot.py
    ```
+
+## Komutlar
+
+- `/start` : Bot ile iletişimi başlatır ve kullanılabilir komutları listeler.
+- `/bul <mahalle adı>` veya `<enlem> <boylam>`: En yakın toplanma alanını bulur.
+- `/acil`: İstanbul acil durum numaralarını gösterir.
+- `/onlem`: Deprem önlemlerini gösterir.
