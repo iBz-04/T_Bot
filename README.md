@@ -22,6 +22,10 @@ T_Bot is a specialized Telegram bot designed to help residents of Tuzla, Istanbu
 
 T_Bot, Tuzla, İstanbul sakinlerinin deprem anında en yakın acil toplanma alanlarını hızlıca bulmalarına yardımcı olmak için tasarlanmış özel bir Telegram botudur. Bot, özellikle Tuzla ilçesine odaklanarak, sismik aktiviteler sırasında güvenliği sağlamak için kritik bilgiler sunar.
 
+
+## Preview 
+<img src="https://res.cloudinary.com/diekemzs9/image/upload/v1745502370/Untitled_Design_ysknoc.png" alt="My Image" width="900"/> 
+
 ## Features
 
 - **Location-Based Search**: Find the nearest emergency gathering area by:
