@@ -3,7 +3,7 @@ from telegram.ext import CallbackContext
 from data_loader import get_data
 from utils.geo import haversine
 
-def find_nearest(update: Update, context: CallbackContext):
+def bul(update: Update, context: CallbackContext):
     loc = update.message.location
     args = context.args
     # Shared location
@@ -37,7 +37,7 @@ def find_nearest(update: Update, context: CallbackContext):
         return
     # Usage message
     else:
-        update.message.reply_text("Kullanım: /find_nearest <enlem> <boylam> veya mahalle adı girin ya da konum paylaşın")
+        update.message.reply_text("Kullanım: /bul <enlem> <boylam> veya mahalle adı girin ya da konum paylaşın")
         return
     df = get_data()
     df['distance'] = df.apply(lambda row: haversine(lat, lon, row['lat'], row['lon']), axis=1)
